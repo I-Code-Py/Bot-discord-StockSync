@@ -16,10 +16,11 @@ avec une interface Web UI ainsi qu'une connexion a une base de doonées qui indi
 
 🔵 **La partie BLEU** signifie que la fonction est disponible pour les utilisateurs.
 - Créaton de salon privé pour intéragire avec le bot ou un memebre de l'administration '''!start'''
+- Possibilité de fermer son salons ouverts (max : 1 salon par utilisateur) '''!close'''
 - Possibilité de réserver des Options en choissisant le nombre (exemple : Ticket salle de cinéma) '''!reserver <nom produit> <quantité>'''
 - Possibilité d'annuler les réservations en choisisant le nombre '''!annuler <nom produit> <quantité>'''
 - Possibilité de payer avec une Carte bancaire de façons sécurisé grace à l'API du processeur de payement Stripe (Ou paypal)
-- Possibilité de fermer son salons ouverts (max : 1 salon par utilisateur) '''!close'''
+- possibilité de réservation, d'annulation, fermer son salon privé, choisir son mode de payement avec les boutons du BOT (à l'ouverture du salon privé)
 
 
 # Avancer des tâches 
