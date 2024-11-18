@@ -6,16 +6,27 @@
 
 avec une interface Web UI ainsi qu'une connexion a une base de doonées qui indique le nombre de place disponible pour un événement. Le bot a été dévellopé en python pour une plus grande facilité d'usage et de modification au long terme. L'idée de crée un bot avec node.js a été abandoonées après que l'équipe du projet c'est rendu compte de la difficulté du language comparé au python.
 
-Le texte en Rouge signifie que la fonction est réservé au administrateur
-Le texte en Bleu signifie que la fonction est disponible pour les utilisateurs
-
-Le bot a comme fonction principale pour les administrateurs du réseau :
+# Fonctionnalitées
+🔴 **La partie ROUGE** signifie que la fonction est réservée aux administrateurs.
 - Création d'évenement/ Poduits (synchronyser avec une base de doonées hébergé par Google Firebase)
 - Gestion du stock synchronyser avec la base de doonées et avec une interface UI; possibilité de modification du stock et des réservation sur l'interface UI hébergé en local chez un des administrateurs pour éviter des abus de tiers qui pourrait prendre le controle du bot.
-- Pssibilité de gérer la gestion des stock en ligne de commande directement sur discord.
+- Possibilité de gérer la gestion des stock en lignes de commandes directement sur discord.
+- Voir les réservations de chaques personnes graces à la commandes '''!stats'''
+
+
+🔵 **La partie BLEU** signifie que la fonction est disponible pour les utilisateurs.
+- Créaton de salon privé pour intéragire avec le bot ou un memebre de l'administration '''!start'''
+- Possibilité de réserver des Options en choissisant le nombre (exemple : Ticket salle de cinéma) '''!reserver <nom produit> <quantité>'''
+- Possibilité d'annuler les réservations en choisisant le nombre '''!annuler <nom produit> <quantité>'''
+- Possibilité de payer avec une Carte bancaire de façons sécurisé grace à l'API du processeur de payement Stripe (Ou paypal)
+- Possibilité de fermer son salons ouverts (max : 1 salon par utilisateur) '''!close'''
 
 
 # Avancer des tâches 
+- [x] Possibilité pour les administrateur dutiliser les commandes stats
 - [x] Système de gestion de la base de doonées avec les commandes directement sur discord
 - [ ] Intégration de l'interface web UI
-- [ ] Gestion de  :tada:
+- [ ] Intégration du procésseur de payement Stripe
+- [ ] Integration du processeur de payement Paypal  :tada:
+
+# Utilisation du BOT
