@@ -11,20 +11,22 @@ avec une interface Web UI ainsi qu'une connexion a une base de doonées qui indi
 - Création d'évenement/ Poduits (synchronyser avec une base de doonées hébergé par Google Firebase)
 - Gestion du stock synchronyser avec la base de doonées et avec une interface UI; possibilité de modification du stock et des réservation sur l'interface UI hébergé en local chez un des administrateurs pour éviter des abus de tiers qui pourrait prendre le controle du bot.
 - Possibilité de gérer la gestion des stock en lignes de commandes directement sur discord.
-- Voir les réservations de chaques personnes graces à la commandes '''!stats'''
+- Voir les réservations de chaques personnes graces à la commandes ```!stats```
 
 
 🔵 **La partie BLEU** signifie que la fonction est disponible pour les utilisateurs.
-- Créaton de salon privé pour intéragire avec le bot ou un memebre de l'administration '''!start'''
-- Possibilité de fermer son salons ouverts (max : 1 salon par utilisateur) '''!close'''
-- Possibilité de réserver des Options en choissisant le nombre (exemple : Ticket salle de cinéma) '''!reserver <nom produit> <quantité>'''
-- Possibilité d'annuler les réservations en choisisant le nombre '''!annuler <nom produit> <quantité>'''
+- Créaton de salon privé pour intéragire avec le bot ou un memebre de l'administration ```!start```
+- Possibilité de fermer son salons ouverts (max : 1 salon par utilisateur) ```!close```
+- Possibilité de réserver des Options en choissisant le nombre (exemple : Ticket salle de cinéma) ```!reserver <nom produit> <quantité>```
+- Possibilité d'annuler les réservations en choisisant le nombre ```!annuler <nom produit> <quantité>```
 - Possibilité de payer avec une Carte bancaire de façons sécurisé grace à l'API du processeur de payement Stripe (Ou paypal)
 - possibilité de réservation, d'annulation, fermer son salon privé, choisir son mode de payement avec les boutons du BOT (à l'ouverture du salon privé)
 
 
 # Avancer des tâches 
-- [x] Possibilité pour les administrateur dutiliser les commandes stats
+- [x] Possibilité pour les administrateur d'utiliser les commandes stats
+- [X] Possibilité pour les utilisateurs d'utiliser les commandes ```start, close, reserver, annuler```
+- [ ] Ajout des commandes en ```/ <commande>```
 - [x] Système de gestion de la base de doonées avec les commandes directement sur discord
 - [ ] Intégration de l'interface web UI
 - [ ] Intégration du procésseur de payement Stripe
