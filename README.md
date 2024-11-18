@@ -33,3 +33,8 @@ avec une interface Web UI ainsi qu'une connexion a une base de doonées qui indi
 - [ ] Integration du processeur de payement Paypal  :tada:
 
 # Utilisation du BOT
+
+## Important Au démarrage
+
+##Base de doonées (Firebase Google)
+Si vous utiliser Firebase ou une autre base de doonées, pensez à nomé vôtre fichier comme écrit :fin ```bot-discord-firebase.json``` et à le mettre à la racine (comme tout les fichiers du code) sinon changer le chemin et le nom du fichier dans ```.env```
