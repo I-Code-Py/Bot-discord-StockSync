@@ -27,13 +27,13 @@ avec une interface Web UI ainsi qu'une connexion a une base de doonées qui indi
 - [x] Possibilité pour les administrateur d'utiliser les commandes stats
 - [X] Possibilité pour les utilisateurs d'utiliser les commandes ```start, close, reserver, annuler```
 - [ ] Ajout des commandes en ```/ <commande>```
-- [x] Système de gestion de la base de doonées avec les commandes directement sur discord
+- [x] Système de gestion de la base de doonées avec les commandes directement sur discord 
 - [ ] Intégration de l'interface web UI
 - [ ] Intégration du procésseur de payement Stripe
 - [ ] Integration du processeur de payement Paypal  :tada:
 
 # Utilisation du BOT
-
+Pour utiliser le bot, vous pouvez porposer à vos utilisateur d'éxecuter les commandes : ```!start``` pour ouvrir un ticket au nom de l'utilisateur avec dedans les indications souhaité par l'administrateur
 ## Important Au démarrage
 
 ##Base de doonées (Firebase Google)
