@@ -1,4 +1,4 @@
-# StockSync 📦 (Avec Hébergement, Gestion du Stock, Option de Paiement)  
+# 📦 StockSync (Avec Hébergement, Gestion du Stock, Option de Paiement)  
 
 **StockSync** est un projet conçu pour une communauté privée souhaitant un bot fonctionnant sur Discord. Ce bot permet de prendre des réservations sur une action proposée, en échange d'une commission pour le travail effectué. StockSync peut également être modifié pour les développeurs souhaitant :  
 - Vendre un produit avec un système de paiement intégré, lié à un compte Stripe ou PayPal.  
