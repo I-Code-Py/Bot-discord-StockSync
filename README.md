@@ -43,9 +43,10 @@ Les gains sont calculés automatiquement et stockés dans la base de données, p
 ## Limitations de Replit  
 
 Bien que Replit soit une solution gratuite et pratique pour héberger StockSync, il n'est pas recommandé pour une utilisation à long terme en raison des limitations suivantes :  
-- Performances limitées : Risque de ralentissements pour un bot avec beaucoup d'utilisateurs ou de commandes.  
+- Performances limitées : Risque de ralentissements pour un bot avec beaucoup d'utilisateurs.  
 - Temps d'inactivité : Les projets gratuits sur Replit sont mis en veille après une période d'inactivité.  
-- Sécurité moindre : Héberger des clés API sensibles (Stripe, Firebase) sur Replit peut être risqué pour des projets en production.  
+- Sécurité moindre : Héberger des clés API sensibles (Stripe, Firebase) sur Replit peut être risqué pour des projets en production.
+- Blocage après un certain temps d'activitées (25h par mois il me semble)
 
 **Recommandation :** Migrez vers une plateforme plus performante comme :  
 - Google Cloud  
